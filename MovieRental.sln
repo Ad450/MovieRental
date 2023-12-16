@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{6B0E4FA1-ABF1-4B35-A605-2075C1C9A79B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{0BEF7AC0-F407-40DF-B16A-D6327E99F4D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{B2589DAA-7DFF-4AAE-A9FF-D17C36440B4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{D80F0B86-E071-44DD-BD19-1A93AFF47C97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{5AD07452-8FF9-425F-B0FA-79E275BA6EEF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieRental.Domain", "Core\Domain\MovieRental.Domain\MovieRental.Domain.csproj", "{44C912CD-5173-40F6-90FC-35CFB1707E4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieRental.Application", "Core\Application\MovieRental.Application\MovieRental.Application.csproj", "{B886F784-AE17-496D-A61E-14630987E12C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieRental.Infrastructure", "Infrastructure\MovieRental.Infrastructure\MovieRental.Infrastructure.csproj", "{D5444E35-03EF-46C7-98D9-3D6C590593E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieRental.API", "Presentation\MovieRental.API\MovieRental.API.csproj", "{D79FC5F8-3EBC-44B2-B8D7-6F04B601FDEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44C912CD-5173-40F6-90FC-35CFB1707E4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44C912CD-5173-40F6-90FC-35CFB1707E4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44C912CD-5173-40F6-90FC-35CFB1707E4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44C912CD-5173-40F6-90FC-35CFB1707E4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B886F784-AE17-496D-A61E-14630987E12C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B886F784-AE17-496D-A61E-14630987E12C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B886F784-AE17-496D-A61E-14630987E12C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B886F784-AE17-496D-A61E-14630987E12C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5444E35-03EF-46C7-98D9-3D6C590593E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5444E35-03EF-46C7-98D9-3D6C590593E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5444E35-03EF-46C7-98D9-3D6C590593E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5444E35-03EF-46C7-98D9-3D6C590593E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D79FC5F8-3EBC-44B2-B8D7-6F04B601FDEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D79FC5F8-3EBC-44B2-B8D7-6F04B601FDEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D79FC5F8-3EBC-44B2-B8D7-6F04B601FDEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D79FC5F8-3EBC-44B2-B8D7-6F04B601FDEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D80F0B86-E071-44DD-BD19-1A93AFF47C97} = {6B0E4FA1-ABF1-4B35-A605-2075C1C9A79B}
+		{5AD07452-8FF9-425F-B0FA-79E275BA6EEF} = {6B0E4FA1-ABF1-4B35-A605-2075C1C9A79B}
+		{44C912CD-5173-40F6-90FC-35CFB1707E4D} = {D80F0B86-E071-44DD-BD19-1A93AFF47C97}
+		{B886F784-AE17-496D-A61E-14630987E12C} = {5AD07452-8FF9-425F-B0FA-79E275BA6EEF}
+		{D5444E35-03EF-46C7-98D9-3D6C590593E9} = {0BEF7AC0-F407-40DF-B16A-D6327E99F4D8}
+		{D79FC5F8-3EBC-44B2-B8D7-6F04B601FDEA} = {B2589DAA-7DFF-4AAE-A9FF-D17C36440B4F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {105432FF-6363-4AEE-9BAF-DAE5792EF332}
+	EndGlobalSection
+EndGlobal
